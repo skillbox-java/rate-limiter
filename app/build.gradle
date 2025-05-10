@@ -5,8 +5,10 @@ dependencies {
     implementation platform("org.springframework.boot:spring-boot-dependencies:3.2.5")
 
     implementation project(':domain')
+    implementation project(':application')
     implementation project(':persistence')
     implementation project(':api')
 
+    implementation 'org.liquibase:liquibase-core'
     implementation 'org.springframework.boot:spring-boot-starter'
 }

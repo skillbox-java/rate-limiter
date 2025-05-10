@@ -1,3 +1,3 @@
 rootProject.name = "rate-limiter"
 
-include("app", "domain", "persistence", "api")
+include("app", "application", "domain", "persistence", "api")

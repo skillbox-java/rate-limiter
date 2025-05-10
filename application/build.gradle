@@ -3,5 +3,5 @@ apply plugin: 'java'
 dependencies {
     implementation project(':domain')
     implementation platform("org.springframework.boot:spring-boot-dependencies:3.2.5")
-    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter'
 }

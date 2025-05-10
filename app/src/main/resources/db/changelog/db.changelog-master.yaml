@@ -1,0 +1,8 @@
+  databaseChangeLog:
+    - changeSet:
+        id: 001
+        author: Konstantin Sh
+        changes:
+          - sqlFile:
+              path: changelog-001-init.sql
+              relativeToChangelogFile: true
