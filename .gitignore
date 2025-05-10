@@ -1,0 +1,54 @@
+# ------------------------------
+# IntelliJ IDEA / JetBrains IDEs
+# ------------------------------
+# Project files and settings
+.idea/**
+*.iws
+*.iml
+*.ipr
+
+# Workspace files
+workspace.xml
+tasks.xml
+usage.statistics.xml
+
+# ------------------------------
+# Windows
+# ------------------------------
+# Thumbnail caches
+Thumbs.db
+ehthumbs.db
+# Folder settings
+Desktop.ini
+# Recycle Bin
+$RECYCLE.BIN/
+
+# ------------------------------
+# Java
+# ------------------------------
+# Compiled class files
+*.class
+# Package files
+*.jar
+*.war
+*.ear
+*.nar
+#.zip, .tar.gz, .rar (архивы артефактов)
+*.zip
+*.tar.gz
+*.rar
+# JVM crash logs
+hs_err_pid*
+
+# ------------------------------
+# Gradle
+# ------------------------------
+# Gradle caches
+.gradle/
+# Build output directories
+**/build/
+# Wrapper files – коммитим скрипты и свойства, но не дистрибутив
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+# Иногда скачанный дистрибутив раскладывается сюда
+gradle/wrapper/dists/
