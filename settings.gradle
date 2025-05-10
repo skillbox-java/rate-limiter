@@ -1,0 +1,3 @@
+rootProject.name = "rate-limiter"
+
+include("app", "domain", "persistence", "api")
