@@ -9,5 +9,5 @@ dependencies {
     implementation 'org.liquibase:liquibase-core'
     runtimeOnly 'org.postgresql:postgresql'
 
-    runtimeOnly   'com.h2database:h2:2.1.214'
+    runtimeOnly 'com.h2database:h2:2.2.220'
 }
