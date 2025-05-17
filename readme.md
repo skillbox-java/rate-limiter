@@ -72,8 +72,9 @@ rate-limiter/
 
 ### 2. Через Docker Compose (PostgreSQL, профиль docker)
 
+В корне проекта:
+
 ```bash
-# В корне проекта
 docker-compose up -d
 ```
 

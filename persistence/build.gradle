@@ -10,4 +10,14 @@ dependencies {
     runtimeOnly 'org.postgresql:postgresql'
 
     runtimeOnly 'com.h2database:h2:2.2.220'
+
+    // Базовый набор для всех тестов (JUnit 5, AssertJ, Mockito, Spring Test)
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'org.springframework.boot:spring-boot-starter-data-jpa'     // @DataJpaTest
+
+}
+
+tasks.withType(Test).configureEach {
+    // Ключевая строка: говорим Gradle использовать JUnit Platform (Jupiter)
+    useJUnitPlatform()
 }
